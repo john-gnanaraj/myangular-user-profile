@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import 'rxjs/add/operator/map';
 import { UserService } from './user.service';
 
 @Component({
@@ -16,7 +15,7 @@ export class UserSettingsComponent implements OnInit {
   items = [];
   
   ngOnInit() {
-      this._userService.getUser().subscribe(data => this.items = data) ;
+      this._userService.getUser().subscribe(data => this.items = data);
   }
 
 }

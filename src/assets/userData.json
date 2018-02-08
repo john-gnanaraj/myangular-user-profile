@@ -1,6 +1,6 @@
 [
     {
-         "UID" :1,
+         "UID" :2,
          "EMP_ID" :"IN778",
          "PASSWORD" :"born123",
          "FNAME" :"John",
@@ -16,7 +16,7 @@
          "CONTACT_NO" :9791710846,
          "EMERGENCY_CONTACT_NO" :9791710856,
          "ROLE" :"User",
-         "LAST_SEEN" :"09:20PM - 24/01/2018",
+         "LAST_SEEN" :"02/08/2018 @ 10:12pm (UTC)",
          "TOKEN_ID" :"2f1020ab58bbdd0ba86a",
          "SHIFT_TYPE" :"EST"
     }
