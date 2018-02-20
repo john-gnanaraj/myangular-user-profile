@@ -10,10 +10,15 @@ export class UserService {
 
     getUser() {
         let data;
-        data = this.http.get('../assets/userData.json')
-    //    data = this.http.get('http://10.98.20.104/trackR/index.php/userprofile?token=param1&uid=param2')
+       // data = this.http.get('../assets/userData.json')
+        data = this.http.get('http://10.98.20.104/trackR/index.php/userprofile?token=$1$fTW.ZNjx$eNN5pOfymsVDr9Zc1esWS/&uid=2')
         .map((res:Response) => res.json());
         console.log(data);
         return data;
     }
+/*
+    getPosts(){
+        return this.http.get('https://jsonplaceholder.typicode.com/posts/').map(result => result.json());
+    }*/
+
 }
